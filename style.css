@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.24),rgba(0,0,0,0.15)), url(shrine.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.profile-card{
+  width: 90%;
+  max-width: 320px;
+  padding: 30px 20px;
+  background: crimson;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(248,3,3,0.65);
+}
+.profile-card .top-icons{
+  display: flex;
+  justify-content: space-between;
+}
+.profile-card img{
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 5px;
+}
+.profile-card h2{
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.profile-card .profile-info{
+  margin: 10px auto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.profile-card .btn{
+  display: inline-block;
+  margin: 20px 0;
+  padding: 5px 25px;
+  border: 2px solid white;
+  border-radius: 25px;
+  background: linear-gradient(to right, #8d68c5, #c34494, #8d68c5);
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.5s;
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+.profile-card .btn:hover{
+  background: white;
+  color: crimson;
+}
+.profile-card .social-icons{
+  display: flex;
+  justify-content: space-around;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.profile-card .social-icons i{
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.profile-card .social-icons i:hover{
+  background: aqua;
+}
+.profile-card .social-icons h3{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.profile-card .social-icons p{
+  font-size: 13px;
+  font-weight: 500;
+}
+.profile-card .social-icons li a{
+  color: white;
+}
